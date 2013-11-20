@@ -112,8 +112,7 @@ Patch9:  man2html-localized-manpage-paths.patch
 
 BuildRequires:  recode
 
-Requires:   %{name}-core%{?_isa} = %{version}-%{release}
-Requires:   httpd
+Requires:   %{name}-core = %{version}-%{release}
 
 %description
 man2html is a man page to HTML converter.

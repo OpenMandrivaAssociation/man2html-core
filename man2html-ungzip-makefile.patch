@@ -1,0 +1,9 @@
+--- ../man-1.6g-orig/man2html/Makefile.in	2010-12-31 13:28:46.000000000 -0700
++++ ./man2html/Makefile.in	2012-05-11 16:53:03.947983881 -0700
+@@ -1,5 +1,5 @@
+ CC = @CC@
+-CFLAGS += -Wall -Wstrict-prototypes -Wmissing-prototypes
++CFLAGS += -Wall -Wstrict-prototypes -Wmissing-prototypes -DGUNZIP='"@gunzip@"'
+ OBJECTS = man2html.o cgibase.o abbrev.o strdefs.o
+ EXEEXT = @EXEEXT@
+ bindir = $(DESTDIR)$(PREFIX)/usr/bin

@@ -3,7 +3,7 @@
 
 Name:       man2html
 Version:    1.6
-Release:    6
+Release:    7
 Summary:    Convert man pages to HTML - CGI scripts
 Group:      System/Base
 

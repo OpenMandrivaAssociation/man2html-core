@@ -12,7 +12,7 @@ Group:      System/Base
 # everything else is GPLv2
 License:    GPLv2+ and GPL+ and Copyright only
 
-URL:        http://www.kapiti.co.nz/michael/vhman2html.html
+URL:        https://www.kapiti.co.nz/michael/vhman2html.html
 Source0:    http://primates.ximian.com/~flucifredi/man/man-%{version}%{posttag}.tar.gz
 
 # Debian CGI scripts

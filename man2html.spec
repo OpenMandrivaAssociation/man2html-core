@@ -110,6 +110,11 @@ Patch8:  man2html-hman-section.patch
 # fix the paths in localized manpages
 Patch9:  man2html-localized-manpage-paths.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  recode
 
 Requires:   %{name}-core = %{version}-%{release}
